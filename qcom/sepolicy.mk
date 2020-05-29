@@ -4,8 +4,8 @@
 #
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/gzosp/sepolicy/qcom/private
+    device/tesla/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/gzosp/sepolicy/qcom/common \
-    device/gzosp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/tesla/sepolicy/qcom/common \
+    device/tesla/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
